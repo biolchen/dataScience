@@ -39,10 +39,14 @@ TEMPLATE = """<!DOCTYPE html>
 def parse_args(args=None):
     d = 'Make a complete, styled HTML document from a Markdown file.'
     parser = argparse.ArgumentParser(description=d)
-    parser.add_argument('mdfile', type=argparse.FileType('r'), nargs='?',
+    parser.add_argument('mdfile',
+                        type=argparse.FileType('r'),
+                        nargs='?',
                         default=sys.stdin,
                         help='File to convert. Defaults to stdin.')
-    parser.add_argument('-o', '--out', type=argparse.FileType('w'),
+    parser.add_argument('-o',
+                        '--out',
+                        type=argparse.FileType('w'),
                         default=sys.stdout,
                         help='Output file name. Defaults to stdout.')
     return parser.parse_args(args)
