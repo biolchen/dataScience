@@ -1,0 +1,199 @@
+{
+    "colJSON": {
+        "children": [
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [],
+                                "node_id": 8
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "children": [],
+                                        "node_id": 7
+                                    },
+                                    {
+                                        "children": [],
+                                        "node_id": 9
+                                    }
+                                ],
+                                "node_id": 15
+                            }
+                        ],
+                        "node_id": 16
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [],
+                                "node_id": 0
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "children": [
+                                            {
+                                                "children": [],
+                                                "node_id": 5
+                                            },
+                                            {
+                                                "children": [],
+                                                "node_id": 6
+                                            }
+                                        ],
+                                        "node_id": 12
+                                    },
+                                    {
+                                        "children": [
+                                            {
+                                                "children": [],
+                                                "node_id": 3
+                                            },
+                                            {
+                                                "children": [
+                                                    {
+                                                        "children": [],
+                                                        "node_id": 4
+                                                    },
+                                                    {
+                                                        "children": [
+                                                            {
+                                                                "children": [],
+                                                                "node_id": 1
+                                                            },
+                                                            {
+                                                                "children": [],
+                                                                "node_id": 2
+                                                            }
+                                                        ],
+                                                        "node_id": 10
+                                                    }
+                                                ],
+                                                "node_id": 11
+                                            }
+                                        ],
+                                        "node_id": 13
+                                    }
+                                ],
+                                "node_id": 14
+                            }
+                        ],
+                        "node_id": 17
+                    }
+                ],
+                "node_id": 18
+            }
+        ],
+        "name": "Root_col"
+    },
+    "matrix": [
+        [
+            15,
+            12,
+            8,
+            8,
+            7,
+            7,
+            7,
+            6,
+            5,
+            3
+        ],
+        [
+            10,
+            25,
+            17,
+            11,
+            13,
+            17,
+            20,
+            13,
+            9,
+            15
+        ],
+        [
+            1,
+            2,
+            2,
+            3,
+            4,
+            6,
+            7,
+            8,
+            9,
+            10
+        ],
+        [
+            0,
+            1,
+            2,
+            3,
+            4,
+            6,
+            7,
+            11,
+            9,
+            10
+        ],
+        [
+            0,
+            1,
+            2,
+            3,
+            4,
+            6,
+            7,
+            11,
+            9,
+            10
+        ]
+    ],
+    "rowJSON": {
+        "children": [
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [],
+                                "name": "C"
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "children": [],
+                                        "name": "D"
+                                    },
+                                    {
+                                        "children": [],
+                                        "name": "E"
+                                    }
+                                ],
+                                "name": "D-E"
+                            }
+                        ],
+                        "name": "C-D-E"
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [],
+                                "name": "A"
+                            },
+                            {
+                                "children": [],
+                                "name": "B"
+                            }
+                        ],
+                        "name": "A-B"
+                    }
+                ],
+                "name": "A-B-C-D-E"
+            }
+        ],
+        "name": "Root_row"
+    }
+}
