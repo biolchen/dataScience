@@ -1,72 +1,74 @@
 {
-"matrix": [
-[-2.2, 5.6, 0.9, -0.23, -3, 0.1],
-[5.4, -0.5, 2.33, 3.1, 4.1, -3.2]
-],
-"rowJSON": {
-		"name": ["node1"],
-    "children": [
-        {
-		"name": ["node2"],
-            "children": [
-                {
-		"name": ["node3"],
-                    "children": [],
-                    "name": "f"
-                },
-                {
-		"name": ["node4"],
-                    "children": [
-                        {
-		"name": ["node5"],
-                            "children": [],
-                            "name": "b"
-                        },
-                        {
-		"name": ["node6"],
-                            "children": [
-                                {
-		"name": ["node7"],
-                                    "children": [
-                                        {
-		"name": ["node8"],
-                                            "children": [],
-                                            "name": "c"
-                                        },
-                                        {
-		"name": ["node9"],
-                                            "children": [],
-                                            "name": "d"
-                                        }
-                                    ],
-                                    "name": "c-d"
-                                },
-                                {
-		"name": ["node10"],
-                                    "children": [
-                                        {
-		"name": ["node11"],
-                                            "children": [],
-                                            "name": "a"
-                                        },
-                                        {
-		"name": ["node12"],
-                                            "children": [],
-                                            "name": "e"
-                                        }
-                                    ],
-                                    "name": "a-e"
-                                }
-                            ],
-                            "name": "a-c-d-e"
-                        }
-                    ],
-                    "name": "a-b-c-d-e"
-                }
-            ],
-            "name": "a-b-c-d-e-f"
-        }
+    "matrix": [
+        [
+            -2.2,
+            5.6,
+            0.9,
+            -0.23,
+            -3,
+            0.1
+        ],
+        [
+            0.4,
+            -0.5,
+            2.33,
+            3.1,
+            4.1,
+            -3.2
+        ]
     ],
-    "name": "Root1"
-}
+    "rowJSON": {
+        "children": [
+            {
+                "children": [
+                    {
+                        "children": [],
+                        "name": "f"
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [],
+                                "name": "b"
+                            },
+                            {
+                                "children": [
+                                    {
+                                        "children": [
+                                            {
+                                                "children": [],
+                                                "name": "c"
+                                            },
+                                            {
+                                                "children": [],
+                                                "name": "d"
+                                            }
+                                        ],
+                                        "name": "c-d"
+                                    },
+                                    {
+                                        "children": [
+                                            {
+                                                "children": [],
+                                                "name": "a"
+                                            },
+                                            {
+                                                "children": [],
+                                                "name": "e"
+                                            }
+                                        ],
+                                        "name": "a-e"
+                                    }
+                                ],
+                                "name": "a-c-d-e"
+                            }
+                        ],
+                        "name": "a-b-c-d-e"
+                    }
+                ],
+                "name": "a-b-c-d-e-f"
+            }
+        ],
+        "name": "Root1"
+    }
 }
