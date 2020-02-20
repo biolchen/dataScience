@@ -63,9 +63,16 @@
 		}
 	},
 	{
-		"temperature": 28.93,
+		"temperature": 25.25,
 		"location": {
-			"city": "Beijing",
+			"city": "Shenzhen",
+			"country": "CN"
+		}
+	},
+	{
+		"temperature": 21.25,
+		"location": {
+			"city": "Xi'an",
 			"country": "CN"
 		}
 	},
@@ -79,7 +86,7 @@
 	{
 		"temperature": 27.03,
 		"location": {
-			"city": "GuangZhou",
+			"city": "Guangzhou",
 			"country": "CN"
 		}
 	},
